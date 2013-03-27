@@ -1,8 +1,7 @@
 {
 	"name":"Language Course",
-	"directory":"languagecourse",
-	"thumbnail":"/languagecourse/languagecourse.jpg",
-	"screenshot":"/languagecourse/languagecourse.jpg",
+	"thumbnail":"languagecourse.jpg",
+	"screenshot":"languagecourse.jpg",
 	"pageTypes":[],
 	"defaultColorSwatch":"Bright 4",
 	"defaultFontSwatch":"Raleway"
