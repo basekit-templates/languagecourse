@@ -662,7 +662,7 @@ hr.line.align-right {
     width: 100%;
     border-top: 1px solid lighten(@color-swatch2,20%);
     border-color: lighten(@color-swatch2,20%);
-    background-color: @font-swatch2-background-color;
+    background-color: @color-swatch2;
     background-image: image('/languagecourse/images/arrow.png');
     background-repeat: no-repeat;
     background-position: center right;
@@ -689,7 +689,7 @@ hr.line.align-right {
 .widget.extendednavigation ul li.folder .text 
 {
     display:inline-block;
-    padding: 18px 0px;
+    padding: 18px 20px;
     color: @color-swatch4;
 }
 
@@ -725,6 +725,10 @@ hr.line.align-right {
     text-decoration: none;
 }
 
+.widget.extendednavigation ul.align-right li.folder {
+   background-position: left center;
+}
+
 .widget.extendednavigation li ul {
     display: none;
 }
@@ -752,9 +756,14 @@ hr.line.align-right {
     -ms-transition: all .3s ease-in-out;
 }
 
-.widget.extendednavigation.nm-3-tabs ul li, .widget.extendednavigation.nm-4-tabs ul li {
-    background-image: none;
+.widget.extendednavigation ul.align-right li.folder {
+   background-position: left center;
 }
+
+.widget.extendednavigation.nm-3-tabs ul.align-right li.folder, .widget.extendednavigation.nm-4-tabs ul.align-right li.folder {
+   background-position: left center;
+}
+ 
 
 
 /* DESKTOP REDIRECT */
