@@ -1,0 +1,36 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+ <header>
+    <div class="wrapper clearfix">
+       {{widget('companyheader', 'companyheader', {"defaultlogo": asset('images/logo.png')})|raw}}
+       {{widget('extendednavigation', 'navigationheader', {"align":"center"})|raw}}
+    </div>
+</header>
+
+<section>
+    {{widget('feature', 'featurehome', {"header": "LEARN A NEW LANGUAGE TODAY", "strapline":"Ut urna ipsum, pulvinar vitae sagittis in placerat ac nulla.", "buttonText":"Find out more today →","defaultBgImg": asset('images/feature-bg.jpg'), 'positionTopPercentage': '50','showBtn': true})|raw}}
+</section>
+
+<div class="main wrapper clearfix">
+    {{zone('main')|raw}}
+</div>
+
+<footer>
+    <div class="wrapper">
+        <div class="responsivecolumns columns-three-33-34-33">
+            <div class="column columns-three-left">
+                {{widget('content', 'footercolumn1', {"content":'<h2>LOREM IPSUM</h2><p>Integer a Tortor dui nullam nec antemi morbi sodales urna sit amet mauris.</p>'})|raw}}
+            </div>
+            <div class="column columns-three-middle">
+                {{widget('content', 'footercolumn2', {"content":'<h2>MORBI ALAM</h2><p><span>t:&nbsp;</span> (020) 12 345 678<br><span>e:&nbsp;</span> youremail@provider.com</p>'})|raw}}
+            </div>
+            <div class="column columns-three-right">
+                {{widget('content', 'footercolumn3', {"content":'<h2>SOLADES</h2>'})|raw}}
+                {{widget('socialicons', 'socialicons', {'googleplus': 'https://plus.google.com/101946323226233111530', 'linkedin':'http://www.linkedin.com/company/basekit', 'facebook': 'https://www.facebook.com/TeamBaseKit', 'twitter': 'https://twitter.com/basekit', 'youtube': 'https://www.youtube.com/user/TeamBaseKit', 'rss': 'http://blogdiseno.basekit.es/feed/'})|raw}}
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% endblock %}
