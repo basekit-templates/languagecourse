@@ -1,12 +1,18 @@
 {% extends "layout.twig" %}
 
 {% block content %}
+<<<<<<< HEAD
 
  <header>
     <div class="wrapper clearfix">
        {{widget('companyheader', 'companyheader', {"defaultlogo": asset('images/logo.png')})|raw}}
        {{widget('extendednavigation', 'navigationheader', {})|raw}}
     </div>
+=======
+<header>
+{{widget('companyheader', 'companyheader', {"defaultlogo": asset('/images/languagecourse-logo.png')})|raw}}
+{{widget('extendednavigation', 'navigationheader', {"align":"center"})|raw}}
+>>>>>>> b2fcd3db9a059d876e2f1dfdec29f051c4bc2dfc
 </header>
 
 <section>
