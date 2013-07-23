@@ -1,7 +1,7 @@
 {
-	"name":"Pearl",
-	"thumbnail":"pearl.jpg",
-	"screenshot":"pearl.jpg",
+	"name":"Language Course",
+	"thumbnail":"languagecourse.png",
+	"screenshot":"languagecourse.png ",
 	"pageTypes":["home"],
     "colorSwatches":
     {
@@ -52,9 +52,9 @@
         }
     },
     "fontSwatch": {
-       "title": "Raleway",
+       "title": "PT Sans Narrow",
         "font1": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "21px",
             "font-weight": "500",
             "line-height": "28px",
@@ -62,7 +62,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "24px",
             "font-weight": "inherit",
             "line-height": "36px",
@@ -70,7 +70,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "18px",
             "font-weight": "inherit",
             "line-height": "28px",
@@ -78,7 +78,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "16px",
             "font-weight": "inherit",
             "line-height": "26px",
@@ -86,7 +86,7 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "14px",
             "font-weight": "500",
             "line-height": "36px",
@@ -94,7 +94,7 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "15px",
             "font-weight": "600",
             "line-height": "28px",
@@ -105,7 +105,7 @@
             "background-color-hover": "@color-swatch3"
         },
         "font7": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "16px",
             "font-weight": "inherit",
             "line-height": "26px",
@@ -115,7 +115,7 @@
             "background-color-hover": "@color-swatch7"
         },
         "font8": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "40px",
             "font-weight": "500",
             "line-height": "50px",
@@ -123,7 +123,7 @@
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "Raleway",
+            "font-family": "PT Sans Narrow",
             "font-size": "24px",
             "font-weight": "500",
             "line-height": "36px",
