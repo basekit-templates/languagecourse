@@ -3,6 +3,8 @@
 	"thumbnail":"languagecourse.png",
 	"screenshot":"languagecourse.png ",
 	"pageTypes":["home"],
+    "defaultColorSwatch":"Colorful 4",
+    "defaultFontSwatch":"PT Sans Narrow",
     "colorSwatches":
     {
         "Swatch 1": {
