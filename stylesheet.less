@@ -1,4 +1,14 @@
+/* ===============================
+   IMPORT CSS
+   =============================== */
+
 @import templatecommon('/paypal.less');
+@import templatecommon('/dropbox.less');
+
+
+/* ===============================
+   TEMPLATE STYLES
+   =============================== */
 
 body {
   background-color: @color-swatch1;
@@ -750,13 +760,23 @@ footer span {
    PAYPAL BUTTON
    =============================== */
 
-
 .widget.paypalbuynow .widget.button.paypal {
         -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
     font-size: 1.2em;
   }
+
+/* ===============================
+   DROPBOX BUTTON
+   =============================== */
+
+.widget.dropbox .b-wrap .btn {
+        -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size: @font-swatch7-font-size;
+}
 
 
 /* ===============================
@@ -767,14 +787,13 @@ footer span {
     padding: 0;
 }
 
-
 .widget.button button
 {
   margin: 1em 0;
   padding: 17px 56px;
   border: 0;
   font-family: @font-swatch2-font-family;
-  font-size: 1.2em;
+  font-size: @font-swatch7-font-size;
   font-weight:@font-swatch7-font-weight;
   background-color: @font-swatch6-background-color;
   color: @font-swatch7-color;
@@ -1485,9 +1504,10 @@ hr.line.align-right {
   background-image: image('/images/twitter.png');
   background-repeat: no-repeat;
   background-position: 18px;
+  background-size: 16px;
 
   font-family: @font-swatch2-font-family;
-  font-size:.9em;
+  font-size:@font-swatch7-font-size;
   font-weight:@font-swatch7-font-weight;
   background-color: @font-swatch7-background-color;
   color: @color-swatch1;
