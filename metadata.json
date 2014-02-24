@@ -59,25 +59,25 @@
        "title": "\"PT Sans Narrow\", Arial, sans-serif",
         "font1": {
             "font-family": "\"PT Sans Narrow\", Arial, sans-serif",
-            "font-size": "18px",
+            "font-size": "32px",
             "font-weight": "400",
-            "line-height": "24px",
+            "line-height": "32px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font2": {
             "font-family": "\"PT Sans Narrow\", Arial, sans-serif",
-            "font-size": "24px",
+            "font-size": "26px",
             "font-weight": "inherit",
-            "line-height": "36px",
-            "color": "@color-swatch1",
+            "line-height": "28px",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font3": {
             "font-family": "\"PT Sans Narrow\", Arial, sans-serif",
-            "font-size": "20px",
+            "font-size": "22px",
             "font-weight": "inherit",
-            "line-height": "34px",
+            "line-height": "30px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
@@ -110,7 +110,7 @@
         },
         "font7": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "20px",
+            "font-size": "18px",
             "font-weight": "inherit",
             "line-height": "32px",
             "color": "@color-swatch1",
@@ -136,9 +136,9 @@
         },
         "font10": {
             "font-family": "\"PT Sans Narrow\", Arial, sans-serif",
-            "font-size": "18px",
+            "font-size": "23px",
             "font-weight": "400",
-            "line-height": "21px",
+            "line-height": "28px",
             "color": "@color-swatch2",
             "letter-spacing": "inherit"
         }
