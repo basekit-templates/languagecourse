@@ -57,7 +57,7 @@
         }
     },
     "fontSwatch": {
-       "title": "\"PT Sans Narrow\", Arial, sans-serif",
+       "title": "PT Sans Narrow / Arial",
         "font1": {
             "font-family": "\"PT Sans Narrow\", Arial, sans-serif",
             "font-size": "32px",
