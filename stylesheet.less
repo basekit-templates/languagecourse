@@ -131,6 +131,12 @@ footer.bk-footer h4 {
     }
 }
 
+.extendednavigation li.selected {
+    a, .text {
+        color: @color-swatch2;
+    }
+}
+
 .widget {
     &.extendednavigation {
         float: right;
@@ -522,8 +528,6 @@ div.twitter-profile-pic {
 .widget.twitter a {
    color: @color-swatch4;
    text-decoration: none;
-   border-bottom: 2px solid @color-swatch3;
-   padding-bottom: 4px;
 }
 
 .widget.twitter span a {
@@ -533,7 +537,8 @@ div.twitter-profile-pic {
 }
 
 .widget.twitter a:hover {
-
+   border-bottom: 2px solid @color-swatch3;
+   padding-bottom: 4px;
 }
 
 .widget.twitter ul {
