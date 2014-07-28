@@ -53,47 +53,51 @@ body {
    =============================== */
 
 header.bk-header {
-    width: 100%;
-    background-color: @color-swatch1;
-    padding: 1em 0;
+    padding: 20px 0;
+    background-color: @color-swatch7;
 }
 
-
-
-// Logo
-.widget {
-    &.logo {
-        display: inline-block;
-        .clearfix;
-        img {
-            display: block;
-            float: left;
-            margin-right: 6px;
-        }
-    }
-}
-
-// Company Header
 .companyheader {
+    display: block;
     float: left;
-    margin-top: 6px;
-    width: 250px;
-}
-
-.widget {
-    &.logo, &.companyname {
-        display: inline-block;
-        vertical-align: middle;
+    width: 30%;
+    @media @tablet {
+        width: 100%;
     }
 }
 
-// Company Name 
-.widget {
-    &.companyname {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 11px;
+// Logo & Company Name
+.widget.logo, .widget.companyname {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* COMPANY NAME */
+
+.widget.companyname {
+    a {
+        font-family: @font-swatch10-font-family;
+        font-weight: @font-swatch10-font-weight;
+        color: @font-swatch10-color;
+        line-height: @font-swatch10-line-height;
+        letter-spacing: @font-swatch10-letter-spacing;
+        font-size: @font-swatch10-font-size;
     }
+}
+
+.widget.companyname a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.headerprofile {
+  background-color:@color-swatch1;
+}
+
+/* LOGO */
+
+.widget.logo {
+    margin-right: 10px;
 }
 
 
