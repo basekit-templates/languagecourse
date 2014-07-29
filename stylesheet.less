@@ -221,7 +221,6 @@ footer.bk-footer h4 {
         margin: 0 0 50px;
         .feature-bgimg,
         .feature-bgimg .content {
-            height: 450px;
             .content {
                 h2 {
                     padding-bottom: .2em;
@@ -237,6 +236,14 @@ footer.bk-footer h4 {
                     }
                 }
                 @media @mobile {
+                    .feature-bgimg .content {
+                        padding-top: 20px;
+                        padding-bottom:20px;
+
+                    }
+
+
+
                     h2 {
                         font-size: bkscale(@font-swatch8-font-size,0.6);
                         line-height: bkscale(@font-swatch8-line-height,0.6);
