@@ -57,6 +57,20 @@ header.bk-header {
     background-color: @color-swatch7;
 }
 
+// Logo
+.widget {
+    &.logo {
+        display: inline-block;
+        .clearfix;
+        img {
+            display: block;
+            float: left;
+            margin-right: 6px;
+        }
+    }
+}
+
+// Company Header
 .companyheader {
     display: block;
     float: left;
@@ -70,24 +84,6 @@ header.bk-header {
 .widget.logo, .widget.companyname {
     display: inline-block;
     vertical-align: middle;
-}
-
-/* COMPANY NAME */
-
-.widget.companyname {
-    a {
-        font-family: @font-swatch10-font-family;
-        font-weight: @font-swatch10-font-weight;
-        color: @font-swatch10-color;
-        line-height: @font-swatch10-line-height;
-        letter-spacing: @font-swatch10-letter-spacing;
-        font-size: @font-swatch10-font-size;
-    }
-}
-
-.widget.companyname a:hover {
-    cursor: pointer;
-    text-decoration: none;
 }
 
 .headerprofile {
@@ -573,7 +569,6 @@ div.twitter-profile-pic {
 /* ===============================
    eCOM
    =============================== */
-
 
 .widget.ecomproductslist {
   .ecom-productslist-products {
