@@ -224,52 +224,54 @@ footer.bk-footer h4 {
         margin: 0 0 50px;
         .feature-bgimg,
         .feature-bgimg .content {
-            .content {
+            h2 {
+                padding-bottom: .2em;
+            }
+            @media @tablet {
                 h2 {
-                    padding-bottom: .2em;
+                    font-size: bkscale(@font-swatch8-font-size,0.8);
+                    line-height: bkscale(@font-swatch8-line-height,0.8);
                 }
-                @media @tablet {
-                    h2 {
-                        font-size: bkscale(@font-swatch8-font-size,0.8);
-                        line-height: bkscale(@font-swatch8-line-height,0.8);
-                    }
-                    h3 {
-                        font-size: bkscale(@font-swatch9-font-size,0.8);
-                        line-height: bkscale(@font-swatch9-line-height,0.8);
-                    }
+                h3 {
+                    font-size: bkscale(@font-swatch9-font-size,0.8);
+                    line-height: bkscale(@font-swatch9-line-height,0.8);
                 }
+            }
+            @media @mobile {
+                
+                padding-top: 20px;
+                padding-bottom:20px;
+
+
+                h2 {
+                    font-size: bkscale(@font-swatch8-font-size,0.6);
+                    line-height: bkscale(@font-swatch8-line-height,0.6);
+                }
+                h3 {
+                    font-size: bkscale(@font-swatch9-font-size,0.7);
+                    line-height: bkscale(@font-swatch9-line-height,0.7);
+                }
+            }
+            button { 
+                margin: 1em 0 0;
+                padding: 12px 34px;
+                -webkit-border-radius: 40px;
+                -moz-border-radius: 40px;
+                border-radius: 40px;
+                border: 1px solid darken(@color-swatch3,5%);
+                box-shadow: 0 0 0 4px rgba(110,110,110,0.2), inset 0 3px 3px rgba(255,255,255,0.2);
+                text-shadow: 0 1px 2px rgba(0,0,0,0.2);
                 @media @mobile {
-                    
-                    padding-top: 20px;
-                    padding-bottom:20px;
-
-
-                    h2 {
-                        font-size: bkscale(@font-swatch8-font-size,0.6);
-                        line-height: bkscale(@font-swatch8-line-height,0.6);
-                    }
-                    h3 {
-                        font-size: bkscale(@font-swatch9-font-size,0.7);
-                        line-height: bkscale(@font-swatch9-line-height,0.7);
-                    }
+                    padding: 3px 10px;
+                    font-size: bkscale(@font-swatch7-font-size,0.8);
                 }
-                button { 
-                    margin: 1em 0 0;
-                    padding: 12px 34px;
-                    -webkit-border-radius: 40px;
-                    -moz-border-radius: 40px;
-                    border-radius: 40px;
-                    border: 1px solid darken(@color-swatch3,5%);
-                    box-shadow: 0 0 0 4px rgba(110,110,110,0.2), inset 0 3px 3px rgba(255,255,255,0.2);
-                    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
-                    @media @mobile {
-                        padding: 3px 10px;
-                        font-size: bkscale(@font-swatch7-font-size,0.8);
-                    }
-                    span {
-                        vertical-align: inherit;
-                    }
-                } 
+                span {
+                    vertical-align: inherit;
+                }
+            }
+            .wrapper {
+	            width: 100%;
+				padding: 0 30px;
             }
         }
     }
