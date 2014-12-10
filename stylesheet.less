@@ -744,7 +744,7 @@ div.twitter-profile-pic {
             letter-spacing: 0;
             float: none;
             height: 41px;
-           background-image: image('/images/ui-select-arrow.png');
+            background-image: image('/images/ui-select-arrow.png');
 
             @media @mobile {
               display: block;
@@ -774,6 +774,14 @@ div.twitter-profile-pic {
     border-radius: 5px;
     box-shadow: 0px 2px 0px darken(@color-swatch3,10%);
     padding: 3px 14px;
+    &:hover {
+        background-color: @font-swatch7-background-color-hover;
+        cursor: pointer;
+    }
+}
+
+a.btn.ecom-product-go-to-checkout-btn {
+    text-decoration: none;
 }
 
 .ecombasket-checkout-link {
@@ -909,6 +917,10 @@ div.twitter-profile-pic {
                 margin: 0;
                 border: none;
                 text-decoration: none;
+                &:hover {
+                    background-color: @font-swatch7-background-color-hover;
+                    cursor: pointer;
+                }
             }
         }
     }
