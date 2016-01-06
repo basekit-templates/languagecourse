@@ -76,9 +76,9 @@ header.bk-header {
 // Company Header
 .companyheader {
     display: block;
-    float: left;
     width: 30%;
     @media @tablet {
+        padding-right: 40px;
         width: 100%;
     }
 }
@@ -96,7 +96,7 @@ header.bk-header {
 /* LOGO */
 
 .widget.logo {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 
@@ -149,6 +149,7 @@ footer.bk-footer h4 {
         .clearfix;
         @media @tablet {
             float: none;
+            position: initial;
         }
         ul {
             margin: 15px 0 15px 0;
@@ -209,7 +210,8 @@ footer.bk-footer h4 {
             }
         }
         a.pull {
-            top: 21px;
+            right: 30px;
+            top: 35px;
             &:after {
                 background-color: @color-swatch3;
                 box-shadow: 0 6px 0 darken(@color-swatch3,10%), 0 12px 0 darken(@color-swatch3,15%);
