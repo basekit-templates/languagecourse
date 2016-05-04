@@ -24,7 +24,7 @@
 	{% endif %}
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	
+
 	{% include basekit.headScript %}
 </head>
 <body class="{{ page.backgroundClass }}">
@@ -36,6 +36,17 @@
 </body>
 </html>
 
+
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script>
+    $(document).on('mq4hsChange', function (e) {
+        $(document.documentElement).toggleClass('no-touch', e.trueHover);
+    });
+</script>
+<script src="{{asset('js/mq4-hover-shim.js')}}"></script>
+
+
 <script type="text/javascript">
 	! function () {
 	    function supportsSVG() {
@@ -44,4 +55,3 @@
 	    if (supportsSVG()) document.documentElement.className += ' svg'
 	}()
 </script>
-
