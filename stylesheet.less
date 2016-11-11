@@ -1190,13 +1190,14 @@ a.btn.ecom-product-go-to-checkout-btn {
 }
 
 
-// ===============================
-// PROFILE / CONTACT FORM
-// ===============================
+// ======================================
+// PROFILE / CONTACT FORM / ADVANCED FORM
+// ======================================
 
 .widget {
     &.profile,
-    &.contactform {
+    &.contactform,
+    &.advancedcontactform {
         form {
             margin: 0 0 20px;
             fieldset {
@@ -1211,7 +1212,8 @@ a.btn.ecom-product-go-to-checkout-btn {
                     letter-spacing: @font-swatch4-letter-spacing;
                 }
                 input,
-                textarea {
+                textarea,
+                select {
                     height: 48px;
                     width: 100%;
                     margin-bottom: .6em;
@@ -1228,6 +1230,7 @@ a.btn.ecom-product-go-to-checkout-btn {
                         margin-bottom: 10px;
                     }
                 }
+
                 textarea {
                     height: 100px;
                 }
@@ -1256,6 +1259,20 @@ a.btn.ecom-product-go-to-checkout-btn {
             }
         }
     }
+}
+
+.advancedcontactform form fieldset input[type="radio"],
+.advancedcontactform form fieldset input[type="checkbox"] {
+    width: auto;
+    height: auto;
+}
+
+.widget.advancedcontactform form fieldset label {
+    display: inline-block;
+}
+
+.advancedcontactform .option-list {
+    padding: 0.5em 0;
 }
 
 
