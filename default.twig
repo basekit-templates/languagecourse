@@ -26,8 +26,18 @@
             </div>
             <div class="column columns-two-right">
                 {{widget('content', 'footercolumn2content1', {"content":"<h2>Alam Ipsum</h2>"})|raw}}
-                {{widget('profile', 'footercolumn2profilesocialicons', { 'profileType' : 'socialicons' })|raw}} 
-                {{widget('profile', 'footercolumn2profilecopyright', { 'profileType':'copyright', 'copyright':'profile'})|raw}} 
+                {{widget('profile', 'footercolumn2profilesocialicons', {
+                    'profileType': 'socialicons',
+                    'socialIconsLinkedin':   'profile',
+                    'socialIconsTwitter':    'profile',
+                    'socialIconsFacebook':   'profile',
+                    'socialIconsInstagram':  'profile',
+                    'socialIconsPinterest':  'profile',
+                    'socialIconsRss':        'profile',
+                    'socialIconsGoogleplus': 'profile',
+                    'socialIconsYoutube':    'profile'
+                })|raw}}
+                {{widget('profile', 'footercolumn2profilecopyright', { 'profileType':'copyright', 'copyright':'profile'})|raw}}
             </div>
         </div>
     </div>
