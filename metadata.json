@@ -3,6 +3,7 @@
     "thumbnail":"languagecourse.png",
     "screenshot":"languagecourse-screenshot.jpg",
     "templateType":"standard",
+    "versionTenCompatible": 1,
     "pageTypes": ["home"],
     "tags": {
         "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "school", "teacher", "student", "academy", "friendly", "young", "team", "social"],
